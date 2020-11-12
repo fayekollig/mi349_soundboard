@@ -1,0 +1,10 @@
+.buttonContainer {
+    margin: 0 auto;
+    background-color: darkblue;
+}
+
+button {
+    padding: 5px;
+    border-radius: 100%;
+
+}
