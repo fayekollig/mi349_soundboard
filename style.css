@@ -1,10 +1,13 @@
 .buttonContainer {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     background-color: darkblue;
 }
 
 button {
-    padding: 5px;
+    height: 50px;
     border-radius: 100%;
-
+    font-style: italic;
+    background-color: lightblue;
 }
