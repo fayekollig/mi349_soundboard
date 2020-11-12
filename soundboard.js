@@ -1,11 +1,11 @@
 
-blipButton = document.getElementById('blipButton')
-bloopButton = document.getElementById('bloopButton')
-blurpButton = document.getElementById('blurpButton')
+var blipButton = document.getElementById('blipButton')
+var bloopButton = document.getElementById('bloopButton')
+var blurpButton = document.getElementById('blurpButton')
 
-blip = document.getElementById('blipSound')
-bloop = document.getElementById('bloopSound')
-blurp = document.getElementById('blurpSound')
+var blip = document.getElementById('blipSound')
+var bloop = document.getElementById('bloopSound')
+var blurp = document.getElementById('blurpSound')
 
 blipButton.addEventListener('click', blip.play())
 bloopButton.addEventListener('click', bloop.play())
