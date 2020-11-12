@@ -5,15 +5,14 @@
     background-color: darkblue;
     padding: 50px;
     border-radius: 10px;
-    align-items: center;
-    align-content: center;
 }
 
 button {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     font-size: 2em;
+    margin: 10px;
 }
 
 #blipButton {
@@ -39,3 +38,6 @@ button:hover {
     border: 5px solid black;
 }
 
+button:clicked {
+    border:none;
+}
