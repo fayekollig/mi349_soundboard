@@ -3,9 +3,9 @@ blipButton = document.getElementById('blipButton')
 bloopButton = document.getElementById('bloopButton')
 blurpButton = document.getElementById('blurpButton')
 
-var blip = new Audio("blip.wav")
-var bloop = new Audio("bloop.wav")
-var blurp = new Audio("blurp.wav")
+blip = document.getElementById('blipSound')
+bloop = document.getElementById('bloopSound')
+blurp = document.getElementById('blurpSound')
 
 blipButton.addEventListener('click', blip.play())
 bloopButton.addEventListener('click', bloop.play())
