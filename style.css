@@ -3,23 +3,32 @@
     margin-right: auto;
     width: 50%;
     background-color: darkblue;
+    padding: 50px;
+    border-radius: 50%;
 }
 
 button {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 100%;
     font-size: 2em;
 }
 
-#blipbutton {
+#blipButton {
     font-style: italic;
     color: darkblue;
     background-color: lightblue;
 }
 
-#bloopbutton {
+#bloopButton {
   font-weight: bolder;
   background-color: lightslategray;
   color: white;
+}
+
+#blurpButton{
+    font-weight: 900;
+    font-style: italic;
+    background-color: navy;
+    color: lightblue;
 }
