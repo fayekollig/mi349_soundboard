@@ -1,4 +1,4 @@
-.buttonContainer {
+#buttonContainer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -6,8 +6,20 @@
 }
 
 button {
-    height: 50px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
+    font-size: 2em;
+}
+
+#blipbutton {
     font-style: italic;
+    color: darkblue;
     background-color: lightblue;
+}
+
+#bloopbutton {
+  font-weight: bolder;
+  background-color: lightslategray;
+  color: white;
 }
