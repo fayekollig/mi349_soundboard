@@ -8,5 +8,6 @@ var bloop = document.getElementById('bloopSound')
 var blurp = document.getElementById('blurpSound')
 
 blipButton.addEventListener('click', blip.play())
+blipButton.addEventListener('click', alert('ALERT'))
 bloopButton.addEventListener('click', bloop.play())
 blurpButton.addEventListener('click', blurp.play())
