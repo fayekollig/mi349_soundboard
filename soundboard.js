@@ -1,13 +1,13 @@
 
-var sound1 = new Audio("blip.wav")
-var sound2 = new Audio("bloop.wav")
-var sound3 = new Audio("blurp.wav")
+var blip = new Audio("blip.wav")
+var bloop = new Audio("bloop.wav")
+var blurp = new Audio("blurp.wav")
 
 sound1Button = document.getElementById('sound1')
-sound1Button.addEventListener(click, sound1.play())
+sound1Button.addEventListener('click', blip.play())
 
 sound2Button = document.getElementById('sound2')
-sound2Button.addEventListener(click, sound2.play())
+sound2Button.addEventListener('click', bloop.play())
 
 sound3Button = document.getElementById('sound3')
-sound3Button.addEventListener(click, sound3.play())
+sound3Button.addEventListener('click', blurp.play())
